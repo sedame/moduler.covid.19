@@ -16,6 +16,6 @@ CREATE TABLE Communiques (
   nb_cas_communautaire int(5) NOT NULL DEFAULT 0,
   nb_gueris int(5) NOT NULL DEFAULT 0,
   nb_deces int(5) NOT NULL DEFAULT 0,
-  date_extraction varchar(10)  DEFAULT NULL
+  date_extraction varchar(30)  DEFAULT NULL
 ) ;
 
